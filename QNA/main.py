@@ -12,6 +12,9 @@ for (rowNumber, line) in enumerate(knowledge):
         mainCount[translated_word(word)].append(rowNumber)
 print(mainCount)
 knowledge.append('As an AI model, I can\'t answer that...')
+
+
+
 def maxElementOf(q):
     cnt = dict()
     maxIndex = -1
@@ -24,7 +27,7 @@ def maxElementOf(q):
     return maxIndex
 while True:
     q = list() 
-    for x in input().split(' '):
+    for x in input().replace('?', '').split(' '):
         if x!='is':
             q += mainCount.get(x, [])
     print(knowledge[maxElementOf(q)])
