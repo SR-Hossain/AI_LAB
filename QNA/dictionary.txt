@@ -1,0 +1,10 @@
+{
+    'like': 'love',
+    'stalking': 'stalk',
+    'stalked': 'stalk',
+    'stalker': 'stalk',
+    'loving': 'love',
+    'fond': 'hobby',
+    'death': 'die',
+    
+}
