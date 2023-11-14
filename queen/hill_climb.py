@@ -1,4 +1,5 @@
 from random import randint
+
 def genRandom(n):
     return list(randint(0, 10000)%n for _ in range(n))
 
