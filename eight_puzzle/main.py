@@ -1,17 +1,3 @@
-'''''
-234
-157
-89_
-
-23415789_
-2341578_9, 23415_89 # +3 -3 (-1@%0 +1@%2)
-
-
-243
-159
-8_7
-'''''
-
 initial = list(input()+input()+input())
 input()
 final = list(input()+input()+input())
